@@ -23,7 +23,7 @@ const Navbar = () => {
         className="font-display text-2xl md:text-3xl font-semibold tracking-widest uppercase text-primary-foreground mix-blend-difference"
       >
         <img 
-          src="/src/assets/helalogga.png" 
+          src="/src/assets/helalogga.jpg" 
           alt="Logo"
           className="h-8 md:h-10" // justera storlek efter behov
         />
