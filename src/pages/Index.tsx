@@ -1,5 +1,6 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import OmSection from "@/components/Omsection";
 import ProjectSection from "@/components/ProjectSection";
 import ContactSection from "@/components/ContactSection";
 
@@ -61,6 +62,7 @@ const Index = () => {
     <main>
       <Navbar />
       <HeroSection />
+      <OmSection />
       {projects.map((project) => (
         <ProjectSection key={project.id} {...project} />
       ))}

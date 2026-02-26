@@ -22,7 +22,7 @@ const Navbar = () => {
       {/* Logo */}
       <button
         onClick={() => scrollTo("hero")}
-        className="font-display text-2xl md:text-3xl font-semibold tracking-widest uppercase text-primary-foreground mix-blend-difference"
+        className="font-display text-2xl md:text-3xl font-semibold tracking-widest uppercase text-primary-foreground"
       >
         <img 
           src={premisesl} 
@@ -34,7 +34,7 @@ const Navbar = () => {
       {/* Menu button */}
       <button
         onClick={() => setOpen(!open)}
-        className="text-primary-foreground mix-blend-difference z-50"
+        className="text-accent z-50"
         aria-label="Toggle menu"
       >
         {open ? <X size={28} /> : <Menu size={28} />}
@@ -50,6 +50,12 @@ const Navbar = () => {
           <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground font-body mb-4">
             Projekt
           </span>
+          <button
+            onClick={() => scrollTo("omoss")}
+            className="font-display text-4xl md:text-6xl font-light text-background hover:text-accent transition-colors duration-300"
+          >
+            Om oss
+          </button>
           {projects.map((p) => (
             <button
               key={p.id}

@@ -1,6 +1,6 @@
 import heroBg from "@/assets/hero-bg.jpg";
-
 import premisesn from "@/assets/premisesnamn.png";
+
 
 const HeroSection = () => {
   return (
