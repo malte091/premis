@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 
+import premisesl from "@/assets/helalogga.png";
+
 const projects = [
   { id: "strandpark", label: "Strandpark" },
   { id: "centrumhuset", label: "Centrumhuset" },
@@ -23,7 +25,7 @@ const Navbar = () => {
         className="font-display text-2xl md:text-3xl font-semibold tracking-widest uppercase text-primary-foreground mix-blend-difference"
       >
         <img 
-          src="/src/assets/helalogga.jpg" 
+          src={premisesl} 
           alt="Logo"
           className="h-8 md:h-10" // justera storlek efter behov
         />

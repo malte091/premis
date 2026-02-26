@@ -1,5 +1,7 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 
+import premisesn from "@/assets/premisesnamn.png";
+
 const ContactSection = () => {
   return (
     <footer
@@ -49,7 +51,7 @@ const ContactSection = () => {
         <div className="mt-20 pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <span className="font-display text-xl tracking-widest uppercase">
             <img 
-              src="/src/assets/premisesnamn.jpg" 
+              src= {premisesn}
               alt="Logo"
               className="h-5" // justera storlek efter behov
             />

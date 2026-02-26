@@ -1,5 +1,7 @@
 import heroBg from "@/assets/hero-bg.jpg";
 
+import premisesn from "@/assets/premisesnamn.png";
+
 const HeroSection = () => {
   return (
     <section id="hero" className="relative h-screen w-full overflow-hidden">
@@ -15,7 +17,7 @@ const HeroSection = () => {
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-6">
         <h1 className="font-display text-6xl md:text-9xl font-light tracking-[0.15em] uppercase text-background">
           <img 
-            src="/src/assets/premisesnamn.jpg" 
+            src= {premisesn}
             alt="Logo"
             className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto"
          />
