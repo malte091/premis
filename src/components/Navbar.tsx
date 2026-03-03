@@ -47,15 +47,15 @@ const Navbar = () => {
         }`}
       >
         <div className="flex flex-col items-center gap-8">
-          <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground font-body mb-4">
-            Projekt
-          </span>
           <button
             onClick={() => scrollTo("omoss")}
             className="font-display text-4xl md:text-6xl font-light text-background hover:text-accent transition-colors duration-300"
           >
             Om oss
           </button>
+          <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground font-body mb-0">
+            Våra Projekt
+          </span>
           {projects.map((p) => (
             <button
               key={p.id}

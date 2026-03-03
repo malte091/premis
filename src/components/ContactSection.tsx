@@ -20,7 +20,7 @@ const ContactSection = () => {
               <h3 className="font-body text-sm uppercase tracking-[0.2em] mb-2 text-background/60">
                 E-post
               </h3>
-              <p className="font-body text-background/90">info@premises.se</p>
+              <p className="font-body text-background/90">kontakt@premises.nu</p>
             </div>
           </div>
 
