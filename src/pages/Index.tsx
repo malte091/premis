@@ -7,6 +7,7 @@ import ContactSection from "@/components/ContactSection";
 import project1 from "@/assets/project-1.jpg";
 import project2 from "@/assets/project-2.jpg";
 import project3 from "@/assets/project-3.jpg";
+import TillsammansSection from "@/components/Tillsammans";
 
 const projects = [
   {
@@ -70,6 +71,7 @@ const Index = () => {
       {projects.map((project) => (
         <ProjectSection key={project.id} {...project} />
       ))}
+      <TillsammansSection />
       <ContactSection />
     </main>
   );
