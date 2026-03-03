@@ -11,30 +11,30 @@ import project3 from "@/assets/project-3.jpg";
 const projects = [
   {
     id: "strandpark",
-    title: "Strandpark",
-    status: "Pågående — Beräknad färdigställning 2027",
+    title: "Vi utvecklar boenden som skapar värde – idag och i framtiden",
+    status: "",
     description:
-      "Ett modernt bostadsprojekt vid vattnet med 48 lägenheter fördelade på fyra huskroppar. Skandinavisk arkitektur möter hållbart byggande.",
+      "Vi är fastighetsutvecklingsbolaget som kombinerar erfarenhet, innovation och affärsmässig skärpa för att skapa framtidens bostäder och äldreboenden. Med oss får kommuner och partners en trygg utvecklingsaktör som levererar projekt med hög attraktivitet, stark efterfrågan och långsiktigt värde.",
     details: [
-      "48 lägenheter, 1–4 rum och kök",
-      "Gemensam innergård med grönska",
-      "Energiklass A — solceller på taken",
-      "Inflyttning etappvis från Q3 2027",
+      "",
+      "",
+      "",
+      "",
     ],
     image: project1,
     imageAlt: "Strandpark bostadsprojekt med innergård",
   },
   {
     id: "centrumhuset",
-    title: "Centrumhuset",
-    status: "Pågående — Beräknad färdigställning 2026",
+    title: "Lång erfarenhet som skapar lönsamma projekt",
+    status: "",
     description:
-      "En kontorsfastighet i hjärtat av staden med flexibla ytor för moderna företag. Glasfasad med hög energieffektivitet och smarta kontorslösningar.",
+      "Vår breda kompetens gör att vi snabbt kan identifiera rätt tomter, rätt lägen och rätt affärsmöjligheter. Vi utvecklar projekt som inte bara möter dagens behov – utan också morgondagens krav på hållbarhet, kvalitet och funktionalitet. Resultatet är boenden som är eftertraktade, effektiva och redo för framtiden.",
     details: [
-      "12 000 kvm kontorsyta",
-      "BREEAM Excellent-certifiering",
-      "Takvåning med konferensytor",
-      "Cykelgarage och laddstationer",
+      "",
+      "",
+      "",
+      "",
     ],
     image: project2,
     imageAlt: "Centrumhuset kontorsfastighet med glasfasad",
@@ -42,18 +42,34 @@ const projects = [
   },
   {
     id: "hamngatan",
-    title: "Hamngatan",
-    status: "Projektering — Byggstart 2026",
+    title: "Attraktiva lösningar för kommuner och omsorgsaktörer",
+    status: "",
     description:
-      "Exklusiva radhus vid hamnen med privata bryggor. Trä och betong i harmoni skapar en unik boendemiljö med direkt tillgång till vatten.",
+      "Vi skapar moderna och trygga äldreboenden med genomtänkt design, smarta planlösningar och kostnadseffektiva driftlösningar. Våra projekt bidrar till att stärka kommunens utbud, minska kapacitetsbrist och ge invånare en högre livskvalitet.",
     details: [
-      "16 radhus med sjöutsikt",
-      "Egen bryggplats till varje bostad",
-      "Hållbart trämaterial från lokala skogar",
-      "Gemensam bastu och poolhus",
+      "",
+      "",
+      "",
+      "",
     ],
     image: project3,
     imageAlt: "Hamngatan radhus vid vattnet",
+  },
+  {
+    id: "sista",
+    title: "Bostäder som människor vill bo i – och stanna i",
+    status: "",
+    description:
+      "Genom noggrann planering och fokus på arkitektur, grönska och hållbara material skapar vi boendemiljöer där människor känner trivsel från dag ett. Vi kombinerar funktion, estetik och energieffektivitet för att leverera attraktiva hem med stark marknadsposition.",
+    details: [
+      "",
+      "",
+      "",
+      "",
+    ],
+    image: project2,
+    imageAlt: "Centrumhuset kontorsfastighet med glasfasad",
+    reverse: true,
   },
 ];
 

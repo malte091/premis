@@ -30,7 +30,7 @@ const ContactSection = () => {
               <h3 className="font-body text-sm uppercase tracking-[0.2em] mb-2 text-background/60">
                 Telefon
               </h3>
-              <p className="font-body text-background/90">08-123 456 78</p>
+              <p className="font-body text-background/90">(-)</p>
             </div>
           </div>
 
@@ -41,8 +41,8 @@ const ContactSection = () => {
                 Adress
               </h3>
               <p className="font-body text-background/90">
-                Storgatan 1<br />
-                111 23 Stockholm
+                Kemistvägen 2A<br />
+                183 79 Täby
               </p>
             </div>
           </div>
