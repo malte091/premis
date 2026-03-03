@@ -14,10 +14,10 @@ const TillsammansSection = () => {
         Premises
       </h2>
 
-      <p className="mt-6 font-body text-center text-base">
+      <p className="mt-6 font-body text-3xl text-center text-base">
         När du samarbetar med oss får du en utvecklingspartner som tar ansvar, driver processen och levererar kvalitet i varje led.
       </p>
-      <p className="mt-6 font-body text-center text-base">
+      <p className="mt-6 font-body text-3xl text-center text-base">
         Vi bygger projekt som gör skillnad – ekonomiskt, socialt och miljömässigt.
       </p>
     </div>
