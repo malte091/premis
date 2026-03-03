@@ -4,7 +4,7 @@ const TillsammansSection = () => {
       id="omoss" 
       className="bg-foreground text-background py-20 px-8"
     >
-    <div className="max-w-4xl mx-auto"> 
+    <div className="max-w-4xl mx-auto border-b border-white/20 pb-4"> 
       {/* Ditt innehåll här */}
       <h2 className="font-display text-5xl text-center tracking-wide text-white uppercase">
         Tillsammans formar vi nästa generation av bostäder
