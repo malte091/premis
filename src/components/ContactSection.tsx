@@ -20,7 +20,7 @@ const ContactSection = () => {
               <h3 className="font-body text-sm uppercase tracking-[0.2em] mb-2 text-background/60">
                 E-post
               </h3>
-              <p className="font-body text-background/90">kontakt@premises.nu</p>
+              <p className="font-body text-background/90">kontakt@premises.se</p>
             </div>
           </div>
 
@@ -30,7 +30,7 @@ const ContactSection = () => {
               <h3 className="font-body text-sm uppercase tracking-[0.2em] mb-2 text-background/60">
                 Telefon
               </h3>
-              <p className="font-body text-background/90">(-)</p>
+              <p className="font-body text-background/90">072-317 90 00</p>
             </div>
           </div>
 
