@@ -6,7 +6,7 @@ const ContactSection = () => {
   return (
     <footer
       id="kontakt"
-      className="bg-foreground text-background py-10 px-8 md:px-16"
+      className="bg-foreground text-background py-10 px-8 md:px-16 pt-1"
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="font-display text-4xl md:text-6xl font-light mb-12">
@@ -48,7 +48,7 @@ const ContactSection = () => {
           </div>
         </div>
 
-        <div className="mt-20 pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="mt-10 pt-8 border-t border-background/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <span className="font-display text-xl tracking-widest uppercase">
             <img 
               src= {premisesn}
