@@ -28,7 +28,7 @@ const SistaSection = () => {
             </p>
             <ul className="grid grid-cols-1 gap-3 font-body text-medium">
               {[
-                "Fastighetsförvärv", "Affärsutveckling", "Projektutveckling", 
+                "Affärsutveckling", "Fastighetsförvärv", "Projektutveckling", 
                 "Stadsutveckling", "Detaljplan", "Projektering", 
                 "Projektledning", "Byggledning"
               ].map((item) => (
