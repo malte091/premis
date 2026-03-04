@@ -65,7 +65,7 @@ const Navbar = () => {
             </button>
           ))}
           <button
-            onClick={() => scrollTo("omoss")}
+            onClick={() => scrollTo("sista")}
             className="font-display text-3xl md:text-5xl font-light text-background hover:text-accent transition-colors duration-300"
           >
             Vår expertis
