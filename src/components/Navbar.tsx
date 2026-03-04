@@ -4,9 +4,10 @@ import { Menu, X } from "lucide-react";
 import premisesl from "@/assets/helalogga.png";
 
 const projects = [
-  { id: "strandpark", label: "Strandpark" },
-  { id: "centrumhuset", label: "Centrumhuset" },
-  { id: "hamngatan", label: "Hamngatan" },
+  { id: "Beoend som skapar värde", label: "Vår vision" },
+  { id: "Lång erfarenhet", label: "Så skapar vi värde" },
+  { id: "Lösningar för kommun och omsorgsaktörer", label: "Kommuner och omsorgsaktörer" },
+  { id: "Beonenden som man stannar i", label: "Vårt fokus" },
 ];
 
 const Navbar = () => {
@@ -54,7 +55,7 @@ const Navbar = () => {
             Om oss
           </button>
           <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground font-body mb-0">
-            Våra Projekt
+            Vårt arbetssätt
           </span>
           {projects.map((p) => (
             <button

@@ -6,7 +6,7 @@ const ContactSection = () => {
   return (
     <footer
       id="kontakt"
-      className="bg-foreground text-background py-20 px-8 md:px-16"
+      className="bg-foreground text-background py-10 px-8 md:px-16"
     >
       <div className="max-w-6xl mx-auto">
         <h2 className="font-display text-4xl md:text-6xl font-light mb-12">
