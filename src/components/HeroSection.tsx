@@ -22,7 +22,7 @@ const HeroSection = () => {
             className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto"
          />
         </h1>
-        <p className="mt-4 text-sm md:text-base uppercase tracking-[0.4em] text-background/70 font-body">
+        <p className="mt-4 text-sm md:text-base uppercase tracking-[0.4em] text-background/70 font-body text-center">
           Fastigheter med framtiden i fokus
         </p>
       </div>

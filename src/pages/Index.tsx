@@ -3,6 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import OmSection from "@/components/Omsection";
 import ProjectSection from "@/components/ProjectSection";
 import TillsammansSection from "@/components/Tillsammans";
+import SistaSection from "@/components/Sista";
 import ContactSection from "@/components/ContactSection";
 
 
@@ -74,7 +75,7 @@ const Index = () => {
       {projects.map((project) => (
         <ProjectSection key={project.id} {...project} />
       ))}
-      <TillsammansSection />
+      <SistaSection />
       <ContactSection />
     </main>
   );

@@ -41,6 +41,8 @@ const ContactSection = () => {
                 Adress
               </h3>
               <p className="font-body text-background/90">
+                Premises AB i Sverige<br />
+                Orgnr: 559573-0739<br />
                 Kemistvägen 2A<br />
                 183 79 Täby
               </p>

@@ -50,25 +50,30 @@ const Navbar = () => {
         <div className="flex flex-col items-center gap-8">
           <button
             onClick={() => scrollTo("omoss")}
-            className="font-display text-4xl md:text-6xl font-light text-background hover:text-accent transition-colors duration-300"
+            className="font-display text-3xl md:text-5xl font-light text-background hover:text-accent transition-colors duration-300"
           >
             Om oss
           </button>
-          <span className="text-sm uppercase tracking-[0.3em] text-muted-foreground font-body mb-0">
-            Vårt arbetssätt
-          </span>
+          
           {projects.map((p) => (
             <button
               key={p.id}
               onClick={() => scrollTo(p.id)}
-              className="font-display text-4xl md:text-6xl font-light text-background hover:text-accent transition-colors duration-300"
+              className="font-display text-3xl md:text-5xl font-light text-background hover:text-accent transition-colors duration-300"
             >
               {p.label}
             </button>
           ))}
           <button
+            onClick={() => scrollTo("omoss")}
+            className="font-display text-3xl md:text-5xl font-light text-background hover:text-accent transition-colors duration-300"
+          >
+            Vår expertis
+          </button>
+
+          <button
             onClick={() => scrollTo("kontakt")}
-            className="mt-8 text-sm uppercase tracking-[0.3em] text-muted-foreground hover:text-accent font-body transition-colors duration-300"
+            className="mt-5 text-sm uppercase tracking-[0.3em] text-muted-foreground hover:text-accent font-body transition-colors duration-300"
           >
             Kontakt
           </button>
