@@ -69,7 +69,7 @@ const SistaSection = () => {
         {/* Avslutande call-out */}
         <div className="bg-white/5 p-12 text-center space-y-8 rounded-sm">
 
-          <p className="font-display text-2xl md:text-4xl text-white uppercase tracking-wide">
+          <p className="font-display text-3xl md:text-4xl text-white uppercase tracking-wide">
             Vi bygger projekt som gör skillnad – <span className="text-accent">ekonomiskt, socialt och miljömässigt.</span>
           </p>
         </div>
