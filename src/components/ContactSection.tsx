@@ -8,6 +8,12 @@ const ContactSection = () => {
       id="kontakt"
       className="bg-foreground text-background py-10 px-8 md:px-16 pt-1"
     >
+      <div className="mt-20 border-t border-background/20 pt-12 text-center">
+        <p className="font-body text-lg md:text-xl uppercase tracking-[0.3em] text-white pb-10">
+          Vi söker mark - Kontakta oss
+        </p>
+      </div>
+
       <div className="max-w-6xl mx-auto">
         <h2 className="font-display text-4xl md:text-6xl font-light mb-12">
           Kontakt

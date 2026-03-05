@@ -11,7 +11,7 @@ const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-foreground/60" />
+      <div className="absolute inset-0 bg-foreground/65" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-6">
@@ -22,9 +22,11 @@ const HeroSection = () => {
             className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto"
          />
         </h1>
-        <p className="mt-4 text-sm md:text-base uppercase tracking-[0.4em] text-background/70 font-body text-center">
-          Fastigheter med framtiden i fokus
-        </p>
+        <div className="mt-4 space-y-2 text-sm md:text-base uppercase tracking-[0.4em] text-background/80 font-body text-center">
+          <div>/ˈpreməsəz/</div>
+          <div className="pt-4 [word-spacing:1rem]">Lokaler • Fastighet • Område • Byggnad</div>
+          <div>med Framtiden i fokus</div>
+        </div>
       </div>
 
       {/* Scroll indicator */}
