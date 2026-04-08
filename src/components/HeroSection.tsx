@@ -1,4 +1,4 @@
-import heroBg from "@/assets/hero-bg.jpg";
+import heroBg from "@/assets/Samhälle.png";
 import premisesn from "@/assets/premisesnamn.png";
 
 
@@ -11,7 +11,7 @@ const HeroSection = () => {
         className="absolute inset-0 w-full h-full object-cover"
       />
       {/* Dark overlay */}
-      <div className="absolute inset-0 bg-foreground/65" />
+      <div className="absolute inset-0 bg-foreground/75" />
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full px-6">
@@ -25,7 +25,7 @@ const HeroSection = () => {
         <div className="mt-4 space-y-2 text-sm md:text-base uppercase tracking-[0.4em] text-background/80 font-body text-center">
           <div>/ˈpreməsəz/</div>
           <div className="pt-4 [word-spacing:1rem]">Lokaler • Fastighet • Område • Byggnad</div>
-          <div>med Framtiden i fokus</div>
+          <div></div>
         </div>
       </div>
 

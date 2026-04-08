@@ -72,10 +72,10 @@ const Index = () => {
       <Navbar />
       <HeroSection />
       <OmSection />
+      <SistaSection />
       {projects.map((project) => (
         <ProjectSection key={project.id} {...project} />
       ))}
-      <SistaSection />
       <ContactSection />
     </main>
   );

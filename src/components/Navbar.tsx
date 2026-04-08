@@ -55,6 +55,13 @@ const Navbar = () => {
             Om oss
           </button>
           
+          <button
+            onClick={() => scrollTo("sista")}
+            className="font-display text-3xl md:text-5xl font-light text-background hover:text-accent transition-colors duration-300"
+          >
+            Vår expertis
+          </button>
+          
           {projects.map((p) => (
             <button
               key={p.id}
@@ -64,12 +71,6 @@ const Navbar = () => {
               {p.label}
             </button>
           ))}
-          <button
-            onClick={() => scrollTo("sista")}
-            className="font-display text-3xl md:text-5xl font-light text-background hover:text-accent transition-colors duration-300"
-          >
-            Vår expertis
-          </button>
 
           <button
             onClick={() => scrollTo("kontakt")}

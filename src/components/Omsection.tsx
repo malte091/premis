@@ -2,15 +2,15 @@ const OmSection = () => {
   return (
     <section 
       id="omoss" 
-      className="bg-foreground text-background py-20 px-8"
+      className="bg-foreground text-background pt-6 pb-1 px-8"
     >
     <div className="max-w-4xl mx-auto"> 
       {/* Ditt innehåll här */}
       <h2 className="font-display text-5xl text-center tracking-wide text-white">
-        OM OSS
+        
       </h2>
     
-    <h2 className="text-xs uppercase tracking-[0.3em] text-accent font-body mb-4 text-center">
+    <h2 className="text-xs uppercase tracking-[0.3em] text-accent font-body mb-4 pt-4 text-center">
         Premises
       </h2>
 
